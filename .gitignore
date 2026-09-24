@@ -1,0 +1,10 @@
+# env / caches
+.venv/
+__pycache__/
+*.pyc
+
+# binaries and model weights (too large for git)
+bin/
+models/
+*.safetensors
+*.gguf
