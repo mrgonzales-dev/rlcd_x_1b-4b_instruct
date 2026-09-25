@@ -46,7 +46,7 @@ MODELS = {
 }
 DEFAULT_MODEL = "dspark"
 INTERNAL_PORT_BASE = 8091  # each model's llama-server gets 8091, 8092, ...
-CTX_SIZE = 4096
+CTX_SIZE = 32768
 LOAD_TIMEOUT = 180  # seconds to wait for a llama-server to finish loading
 
 _backends = {}  # model name -> {"proc": Popen, "port": int}
